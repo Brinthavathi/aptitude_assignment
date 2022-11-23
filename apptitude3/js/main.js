@@ -1,0 +1,12 @@
+var days=parseInt(prompt("days"));
+var hours=parseInt(prompt("hours"));
+var week=parseInt(prompt("week"));
+var total=(days*hours*week);
+var perHour=parseFloat(prompt("perHour"));
+var time=parseFloat(prompt("time"));
+var totals=parseInt(prompt("totals"));
+var sum=(total*perHour);
+var eque=totals-sum;
+var calc=eque/time;
+var target=total+calc;
+alert(target);
